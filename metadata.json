@@ -1,0 +1,5 @@
+{
+  "name": "LaTeX Exam Generator",
+  "description": "A specialized AI assistant for Math teachers to generate complete, high-quality LaTeX exam papers based on specific templates and topics.",
+  "requestFramePermissions": []
+}
