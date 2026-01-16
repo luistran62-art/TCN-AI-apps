@@ -162,7 +162,7 @@ ${currentTemplate}
       }
 
 const response = await ai.models.generateContent({
-        model: 'gemini-2.0-flash', // <-- Sửa thành dòng này
+        model: 'gemini-2.0-flash-exp', // <-- Sửa thành dòng này
         contents: {
           parts: parts
         },
