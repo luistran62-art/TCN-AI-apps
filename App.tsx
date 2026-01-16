@@ -161,14 +161,12 @@ ${currentTemplate}
         });
       }
 
-      const response = await ai.models.generateContent({
-        model: 'gemini-3-pro-preview',
+const response = await ai.models.generateContent({
+        model: 'gemini-1.5-flash', // <-- Sửa thành dòng này
         contents: {
           parts: parts
         },
-        config: {
-          thinkingConfig: { thinkingBudget: 4096 },
-        }
+        // Xóa hẳn phần thinkingConfig, chỉ để lại config cơ bản nếu cần (hoặc bỏ trống)
       });
 
       let text = response.text || '';
